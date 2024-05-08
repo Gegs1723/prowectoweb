@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  height: 100vh;
+  background: url("https://i.imgur.com/HgflTDf.jpg") 50% fixed;
+  background-size: cover;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.login {
+  border-radius: 2px 2px 5px 5px;
+  padding: 10px;
+  max-width: 90%;
+  background: #ffffff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.register {
+  border-radius: 2px 2px 5px 5px;
+  padding: 10px;
+  max-width: 90%;
+  background: #ffffff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+button {
+  width: 100%;
+  max-height: 50px;
+  padding: 10px;
+  background: #2196f3;
+  color: #fff;
+  display: block;
+  border: none;
+  margin-top: 20px;
+  border-radius: 0 0 2px 2px;
+  transition: box-shadow 0.3s;
+}
+
+.spinner {
+  width: 30px;
+  height: 30px;
+}
+
+.fa,
+.far {
+  margin-top: -31px;
+}
+
+input {
+  display: block;
+  padding: 15px 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  transition: border-width 0.2s ease;
+  border-radius: 2px;
+  color: #ccc;
+  padding-left: 30px;
+}
+
+label {
+  color: #2196f3;
+}
+
+.title {
+  font-size: 1.2em;
+  margin: 10px 0 20px 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+button:hover {
+  box-shadow: 0px 1px 3px #2196f3;
+}
+
+
+a {
+	color: #2196f3;
+  text-decoration: none;
+}
